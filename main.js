@@ -10,14 +10,15 @@ function Calculator () {
   var num2 = Number(textBox2.value);
 
 
-  function add (num1, num2) {
+  var add = function (num1, num2) {
     return num1 + num2;
   }
-  
-  var total = ();
 
-}
+  var total = (); {
+
+
 
 console.log(add(num1, num2));
+}
 
 button.addEventListener('click', Calculator);
